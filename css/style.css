@@ -85,6 +85,8 @@ img{
     background-color: #262C27;
     cursor: pointer;
     transition: .3s;
+    position: relative;
+    z-index: 5;
 }
 .header__btn:hover{
     background-color: #B9C400;
