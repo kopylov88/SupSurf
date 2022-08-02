@@ -70,8 +70,10 @@ img{
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     font-size: 20px;
-    line-height: 110%; 
-}
+    line-height: 110%;
+    position: relative;
+    z-index: 5;
+}    
 .logo path{
     transition: fill .5s;
 }
@@ -85,8 +87,6 @@ img{
     background-color: #262C27;
     cursor: pointer;
     transition: .3s;
-    position: relative;
-    z-index: 5;
 }
 .header__btn:hover{
     background-color: #B9C400;
